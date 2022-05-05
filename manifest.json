@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Scroll Improvement",
+  "version": "1.7",
+
+  "description": "Scroll more pixels smoothly with this improvement.",
+
+  "icons": {
+    "48": "icons/scroll-improvement-48.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["main.js"]
+    }
+  ]
+
+}
